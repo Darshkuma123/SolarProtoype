@@ -24,75 +24,64 @@
         android:layout_marginTop="201dp"
         android:background="@color/white"
         android:hint="Enter Latitude"
-        android:inputType="text"></EditText>
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:singleLine="true"></EditText>
     <Button
-        android:layout_width="117dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/Param1"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Set"
+        android:text="Get Location"
         android:id="@+id/Set1"></Button>
     <EditText
         android:layout_width="160dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:hint="Enter Longitutude"
         android:background="@color/white"
         android:layout_marginLeft="225dp"
         android:layout_marginTop="201dp"
-        android:id="@+id/Param2">
+        android:textColor="@color/black"
+        android:id="@+id/Param2"
+        android:singleLine="true"
+        >
     </EditText>
-    <Button
-        android:layout_width="117dp"
-        android:layout_height="wrap_content"
-        android:text="Set"
-        android:layout_marginLeft="240dp"
-        android:layout_marginTop="235dp"
-        ></Button>
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:hint="BaseLoad in KW"
+        android:textColor="@color/black"
         android:background="@color/white"
         android:layout_marginTop="330dp"
         android:layout_marginLeft="20dp"
         android:inputType="number"
         android:id="@+id/BaseLoad1"
+        android:singleLine="true"
         >
     </EditText>
-    <Button
-        android:layout_width="117dp"
-        android:layout_height="wrap_content"
-        android:text="SET"
-        android:layout_marginTop="360dp"
-        android:layout_marginLeft="35dp"
-        ></Button>
     <EditText
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="330dp"
         android:layout_marginLeft="225dp"
-        android:text="Elevation in m"
+        android:hint="Elevation in m"
+        android:inputType="number"
+        android:textColor="@color/black"
         android:background="@color/white"
-        android:id="@+id/Elevation">
+        android:id="@+id/Elevation"
+        android:singleLine="true">
     </EditText>
-    <Button
-        android:layout_width="117dp"
-        android:layout_height="wrap_content"
-        android:text="SET"
-        android:layout_below="@+id/Elevation"
-        android:layout_marginLeft="240dp"
-        android:layout_marginTop="8dp"
-        ></Button>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Conversion"
-        android:layout_marginTop="500dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/StartConversion"
         >
     </Button>
 </android.widget.RelativeLayout>
