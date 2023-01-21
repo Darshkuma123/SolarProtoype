@@ -13,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Button tartbutton= findViewById(R.id.Startbutton);
-        tartbutton.setOnClickListener(new View.OnClickListener() {
+        Button startbutton= findViewById(R.id.Startbutton);
+        startbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(MainActivity.this,MainOperation.class);
@@ -23,5 +22,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
