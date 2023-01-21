@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">solarprojectprototype</string>
+    <string name="App_title"> Welcome To Solar Monitor App</string>
+    <string name="Button_1">START</string>
+</resources>
